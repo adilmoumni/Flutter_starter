@@ -1,6 +1,6 @@
-import 'package:notification_project/Collective/CollectiveModel.dart';
+// import 'package:notification_project/Collective/CollectiveModel.dart';
 
-import 'UserModel.dart';
+import '../User/UserModel.dart';
 
 class ConnectedUser {
   static final ConnectedUser _singleton = new ConnectedUser._internal();
@@ -22,7 +22,7 @@ class ConnectedUser {
 class FilterSession {
   static final FilterSession _singleton = new FilterSession._internal();
 
-  List<Collective> future;
+  // List<Collective> future;
 
   List filter = [];
 

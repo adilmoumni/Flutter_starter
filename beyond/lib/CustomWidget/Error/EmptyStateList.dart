@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:notification_project/Values/AppTheme.dart';
-import 'package:notification_project/Values/Dimens.dart';
-import 'package:notification_project/Values/Strings.dart';
+import 'package:beyond/Constant/Value/Dimens.dart';
+import 'package:beyond/Constant/Value/AppTheme.dart';
 
 // ignore: must_be_immutable
 class EmptyStateList extends StatefulWidget {
@@ -54,7 +53,7 @@ class _EmptyStateListState extends State<EmptyStateList> {
                         left: Dimens.space_20px, right: Dimens.space_20px),
                     alignment: Alignment.center,
                     child: Text(
-                      Strings.reload_page,
+                       "Rafraîchisser la page",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontSize: Dimens.text_size_xmedium,

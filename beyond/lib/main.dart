@@ -1,3 +1,4 @@
+import 'package:beyond/Authentication/SignIn.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,9 +16,7 @@ class MyApp extends StatelessWidget {
 
       // This Widget in the first page of the page
       home: Scaffold(
-        body: Center(
-          child: Text("Boyond"),
-        ),
+        body: SignIn(),
       ),
     );
   }

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:notification_project/Values/AppTheme.dart';
-import 'package:notification_project/Values/Dimens.dart';
-import 'package:notification_project/Values/Strings.dart';
+import 'package:beyond/Constant/Value/Dimens.dart';
+import 'package:beyond/Constant/Value/AppTheme.dart';
 
 // ignore: must_be_immutable
 class EmptyStateError extends StatefulWidget {
@@ -24,14 +23,14 @@ class _EmptyStateErrorState extends State<EmptyStateError> {
         children: [
           Image.asset("Assets/server_error.png"),
           Text(
-            Strings.oups,
+            "Oups !",
             style: TextStyle(
                 color: Color(0xFFC4C4C4),
                 fontSize: Dimens.text_size_xlarge,
                 fontFamily: AppTheme.fontCircularStdBold),
           ),
           Text(
-            Strings.page_introuvable,
+            "Page introuvable",
             style: TextStyle(
                 color: Color(0xFFC4C4C4),
                 fontSize: Dimens.text_size_mediumx,
@@ -60,7 +59,7 @@ class _EmptyStateErrorState extends State<EmptyStateError> {
                         left: Dimens.space_20px, right: Dimens.space_20px),
                     alignment: Alignment.center,
                     child: Text(
-                      Strings.try_again,
+                      "Essayez de nouveau",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontSize: Dimens.text_size_xmedium,
